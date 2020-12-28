@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install
 DEPEND=dev-python/bitstring
-DESCRIPTION=Read Yamaha Disklavier floppy disk images
+DESCRIPTION=# Manage MIDI/E-Seq files inside of Disklavier images
 EAPI=7
 HOMEPAGE=https://github.com/MS3FGX/disklav
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=dev-python/bitstring
 SLOT=0
-SRC_URI=https://github.com/MS3FGX/disklav/blob/master/disklav.py
-_md5_=272195295a11ebd5ec3a768babe1759a
+SRC_URI=https://github.com/MS3FGX/disklav/archive/master.zip
+_md5_=e3afc13e60191947b205b80742151d3c
