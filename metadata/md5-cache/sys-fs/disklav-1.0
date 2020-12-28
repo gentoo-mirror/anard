@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=dev-python/bitstring
+DESCRIPTION=Read Yamaha Disklavier floppy disk images
+EAPI=7
+HOMEPAGE=https://hackaday.io/project/164793-hacking-yamaha-disklavier-floppies/log/164053-public-release-of-disklavpy
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=dev-python/bitstring
+SLOT=0
+SRC_URI=https://github.com/MS3FGX/disklav
+_md5_=4d1ea35b5c578230ab836884d56f26b4
