@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install
+DEFINED_PHASES=install
 DEPEND=dev-python/bitstring
 DESCRIPTION=# Manage MIDI/E-Seq files inside of Disklavier images
 EAPI=7
@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=dev-python/bitstring
 SLOT=0
 SRC_URI=https://github.com/MS3FGX/disklav/archive/master.zip
-_md5_=5e10a6591032713a9289064e841dc39e
+_md5_=eaf415d07d58718c565968bab5cab8f8
