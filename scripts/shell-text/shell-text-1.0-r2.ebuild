@@ -14,6 +14,6 @@ KEYWORDS="amd64"
 
 src_install() {
 	einfo 'Installing files...'
-	insinto /usr/local/lib/
-	doins "${S}/help.cnf"
+	insinto /usr/lib/
+	doins "${S}/shell-text.cnf"
 }
