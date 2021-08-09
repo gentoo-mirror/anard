@@ -5,5 +5,5 @@ HOMEPAGE=https://github.com/Anard/HelpSh/
 KEYWORDS=amd64
 LICENSE=GPL-3
 SLOT=0
-SRC_URI=https://github.com/Anard/HelpSh/archive/refs/heads/master.zip -> shell-text-1.0.zip
-_md5_=9135af068e469df328b948fde7649283
+SRC_URI=https://github.com/Anard/HelpSh/archive/refs/heads/master.zip -> shell-text-1.0-r1.zip
+_md5_=0fedbe0bc1be77e0f506f8a84eef86b5
