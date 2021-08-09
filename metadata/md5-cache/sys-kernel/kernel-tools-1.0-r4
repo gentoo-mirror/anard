@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 )
 SLOT=0
-SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/heads/master.zip -> kernel-tools-1.0-r3.zip
+SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/heads/master.zip -> kernel-tools-1.0-r4.zip
 _md5_=49ce23f43dd34d7da9169e0ed6d03030
