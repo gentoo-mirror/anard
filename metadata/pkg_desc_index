@@ -2,4 +2,4 @@ dev-libs/uni2ascii 4.18: Convert in both directions UTF-8 Unicode and more to 7-
 net-misc/dpluzz-cli 1.5.6: Telecharge les videos depuis differents sites de rattrapage
 scripts/shell-text 1.0-r2: Formatting text in echo commands
 sys-fs/disklav 1.0: # Manage MIDI/E-Seq files inside of Disklavier images
-sys-kernel/kernel-tools 1.0 1.01 1.01-r1: Easily build and update kernel in Gentoo
+sys-kernel/kernel-tools 1.0 1.01 1.01-r2: Easily build and update kernel in Gentoo
