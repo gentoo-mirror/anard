@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=color? ( >=scripts/shell-text-1.0-r2 )
+DESCRIPTION=Simple way to upgrade Gentoo system
+EAPI=7
+HOMEPAGE=https://github.com/Anard/upgrade-portage.git
+IUSE=+color
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=color? ( >=scripts/shell-text-1.0-r2 )
+SLOT=0
+SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/master.zip -> upgrade-portage-1.0.zip
+_md5_=f92b28f731a7cc174b6b9957c43bf40f
