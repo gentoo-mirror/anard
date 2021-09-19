@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=sys-apps/util-linux color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut )
+DESCRIPTION=Easily build and update kernel in Gentoo
+EAPI=7
+HOMEPAGE=https://github.com/Anard/kernel-tools.git
+IUSE=+color +grub genkernel dracut
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sys-apps/util-linux color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut )
+REQUIRED_USE=dracut? ( !genkernel )
+SLOT=0
+SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/heads/r5.zip -> kernel-tools-1.01-r5.zip
+_md5_=1c168654e9f47a6c850a6803904846e3

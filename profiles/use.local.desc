@@ -2,7 +2,7 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-sys-kernel/build-kernel:color - Colorize texts
-sys-kernel/build-kernel:dracut - Use Dracut to create an Initramfs image
-sys-kernel/build-kernel:genkernel - Use Genkernel to create an Initramfs image
-sys-kernel/build-kernel:grub - Use Grub as bootloader
+sys-kernel/kernel-tools:color - Colorize texts
+sys-kernel/kernel-tools:dracut - Use Dracut to create an Initramfs image
+sys-kernel/kernel-tools:genkernel - Use Genkernel to create an Initramfs image
+sys-kernel/kernel-tools:grub - Use Grub as bootloader

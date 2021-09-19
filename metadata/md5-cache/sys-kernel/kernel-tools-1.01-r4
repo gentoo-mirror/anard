@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install
+DEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 )
+DESCRIPTION=Easily build and update kernel in Gentoo
+EAPI=7
+HOMEPAGE=https://github.com/Anard/kernel-tools.git
+IUSE=+color +grub
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 )
+SLOT=0
+SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/heads/master.zip -> kernel-tools-1.01-r4.zip
+_md5_=3a949a86c671a01f8d164f1e1e67feb0
