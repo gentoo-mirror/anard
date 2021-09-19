@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut ) nconfig? ( sys-libs/ncurses ) xconfig? ( dev-qt/qtwidgets ) gconfig? ( x11-libs/gtk+:* dev-libs/glib gnome-base/libglade )
+DESCRIPTION=Easily build and update kernel in Gentoo
+EAPI=7
+HOMEPAGE=https://github.com/Anard/kernel-tools.git
+IUSE=+color +grub genkernel dracut +menuconfig gconfig xconfig nconfig
+KEYWORDS=amd64
+LICENSE=GPL-3
+RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut ) nconfig? ( sys-libs/ncurses ) xconfig? ( dev-qt/qtwidgets ) gconfig? ( x11-libs/gtk+:* dev-libs/glib gnome-base/libglade )
+REQUIRED_USE=dracut? ( !genkernel ) ^^ ( menuconfig gconfig xconfig nconfig )
+SLOT=0
+SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/tags/1.2.tar.gz -> kernel-tools-1.2.tar.gz
+_md5_=505765dfed8fe80c4441f504d9e4408a

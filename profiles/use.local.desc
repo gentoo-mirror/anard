@@ -4,5 +4,9 @@
 
 sys-kernel/kernel-tools:color - Colorize texts
 sys-kernel/kernel-tools:dracut - Use Dracut to create an Initramfs image
+sys-kernel/kernel-tools:gconfig - Use gconfig to edit configuration file
 sys-kernel/kernel-tools:genkernel - Use Genkernel to create an Initramfs image
 sys-kernel/kernel-tools:grub - Use Grub as bootloader
+sys-kernel/kernel-tools:menuconfig - Use menuconfig to edit configuration file
+sys-kernel/kernel-tools:nconfig - Use nconfig to edit configuration file
+sys-kernel/kernel-tools:xconfig - Use xconfig to edit configuration file
