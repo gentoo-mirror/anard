@@ -3,4 +3,4 @@ net-misc/dpluzz-cli 1.5.6: Telecharge les videos depuis differents sites de ratt
 scripts/shell-text 1.1: Formatting text in echo commands
 sys-apps/upgrade-portage 1.01: Simple way to upgrade Gentoo system
 sys-fs/disklav 1.0: # Manage MIDI/E-Seq files inside of Disklavier images
-sys-kernel/kernel-tools 1.01 1.2 1.2-r1: Easily build and update kernel in Gentoo
+sys-kernel/kernel-tools 1.01 1.21 1.21-r1: Easily build and update kernel in Gentoo
