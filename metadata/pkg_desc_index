@@ -1,6 +1,6 @@
 dev-libs/uni2ascii 4.18: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
 net-misc/dpluzz-cli 1.5.6: Telecharge les videos depuis differents sites de rattrapage
 scripts/shell-text 1.1: Formatting text in echo commands
-sys-apps/upgrade-portage 1.0: Simple way to upgrade Gentoo system
+sys-apps/upgrade-portage 1.01: Simple way to upgrade Gentoo system
 sys-fs/disklav 1.0: # Manage MIDI/E-Seq files inside of Disklavier images
 sys-kernel/kernel-tools 1.01 1.2 1.2-r1: Easily build and update kernel in Gentoo
