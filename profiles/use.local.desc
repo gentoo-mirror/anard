@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 sys-apps/upgrade-portage:color - Colorize texts
+sys-apps/upgrade-portage:gtk - Use zenity to make a GUI version of the script
 sys-kernel/kernel-tools:color - Colorize texts
 sys-kernel/kernel-tools:dracut - Use Dracut to create an Initramfs image
 sys-kernel/kernel-tools:gconfig - Use gconfig to edit configuration file

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
+DESCRIPTION=Simple way to upgrade Gentoo system
+EAPI=7
+HOMEPAGE=https://github.com/Anard/upgrade-portage.git
+IUSE=+color +gtk
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
+SLOT=0
+SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.01-r1.zip -> upgrade-portage-1.01-r1.zip
+_md5_=99aeb2bbd6160bff95c8a2a40fb23460
