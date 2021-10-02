@@ -3,10 +3,12 @@ DEPEND=color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxq
 DESCRIPTION=Simple way to upgrade Gentoo system
 EAPI=7
 HOMEPAGE=https://github.com/Anard/upgrade-portage.git
+INHERIT=desktop
 IUSE=+color +gtk
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
 SLOT=0
-SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.01-r2.zip -> upgrade-portage-1.01-r2.zip
-_md5_=e44f0239805893b9fe091a9a06c2cff7
+SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.01-r4.zip -> upgrade-portage-1.01-r4.zip
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_md5_=09c7ff899a2efe802a33677395596e83
