@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
 SLOT=0
-SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.02-r1.zip -> upgrade-portage-1.02-r1.zip
+SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.02-r2.zip -> upgrade-portage-1.02-r2.zip
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979
 _md5_=155db45ca0d8c5e607be5cbe521f8609
