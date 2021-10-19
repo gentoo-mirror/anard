@@ -25,9 +25,12 @@ src_install() {
 	if use gtk; then
 		doicon -s 64 "${S}/upgrade-portage.png"
 		domenu "${S}/upgrade.desktop"
-		elog "Be sure to have properly configured an askpass program in /etc/sudo.conf"
+		grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
+		if [ $? -gt 0 ]; then
+			ewarn "Be sure to have properly configured an askpass program in /etc/sudo.conf"
+		fi
 		if ! type genlop &> /dev/null; then
-			ewarn "genlop is used to estimate merge times, you can install it via emerge -a app-portage/genlop"
+			elog "genlop is used to estimate merge times, you can install it via emerge -a app-portage/genlop"
 		fi
 	fi
 }
