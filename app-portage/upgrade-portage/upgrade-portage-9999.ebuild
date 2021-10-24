@@ -8,8 +8,9 @@ inherit xdg-utils
 inherit git-r3
 
 DESCRIPTION="Simple way to upgrade Gentoo system"
+HOMEPAGE="https://github.com/Anard/${PN}.git"
 EGIT_REPO_URI="https://github.com/Anard/${PN}.git"
-EGIT_BRANCH="develop"
+EGIT_BRANCH="1.03-r1"
 S="${WORKDIR}/${PF}"
 
 LICENSE="GPL-3"
@@ -31,13 +32,6 @@ src_install() {
 	if use gtk; then
 		doicon -s 64 "${S}/upgrade-portage.png"
 		domenu "${S}/upgrade.desktop"
-		grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
-		if [ $? -gt 0 ]; then
-			ewarn "Be sure to have properly configured an askpass program in /etc/sudo.conf"
-		fi
-		if ! type qlop &> /dev/null; then
-			elog "qlop is used to estimate merge times, you can install it via emerge -a app-portage/portage-utils"
-		fi
 	fi
 }
 
@@ -45,6 +39,13 @@ pkg_postinst() {
 	if use gtk; then
 #		xdg_desktop_database_update
 		xdg_icon_cache_update
+		grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
+		if [ $? -gt 0 ]; then
+			ewarn "Be sure to have properly configured an askpass program in /etc/sudo.conf"
+		fi
+		if ! type qlop &> /dev/null; then
+			elog "qlop is used to estimate merge times, you can install it via emerge -a app-portage/portage-utils"
+		fi
 	fi
 }
 pkg_postrm() {
