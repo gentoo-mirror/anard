@@ -1,14 +1,13 @@
-DEFINED_PHASES=install postinst postrm
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm unpack
 DEPEND=>=sys-apps/portage-3.0 color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
 DESCRIPTION=Simple way to upgrade Gentoo system
 EAPI=7
-HOMEPAGE=https://github.com/Anard/upgrade-portage.git
-INHERIT=desktop xdg-utils
+INHERIT=desktop xdg-utils git-r3
 IUSE=+color +gtk
-KEYWORDS=~amd64
 LICENSE=GPL-3
+PROPERTIES=live
 RDEPEND=>=sys-apps/portage-3.0 color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
 SLOT=0
-SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/heads/1.03-r1.zip -> upgrade-portage-1.03-r1.zip
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979
-_md5_=f27078dd9439e7809bfb4a15b5c90c4b
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=56f69739694a1749c51c8f62cb78dbdb
