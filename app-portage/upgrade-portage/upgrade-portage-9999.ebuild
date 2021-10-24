@@ -5,19 +5,25 @@ EAPI=7
 
 inherit desktop
 inherit xdg-utils
+inherit git-r3
 
 DESCRIPTION="Simple way to upgrade Gentoo system"
-HOMEPAGE="https://github.com/Anard/${PN}.git"
-SRC_URI="https://github.com/Anard/${PN}/archive/refs/heads/${PVR}.zip -> ${PF}.zip"
+EGIT_REPO_URI="https://github.com/Anard/${PN}.git"
+EGIT_BRANCH="develop"
 S="${WORKDIR}/${PF}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 IUSE="+color +gtk"
 
 RDEPEND=">=sys-apps/portage-3.0 color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )"
 DEPEND="${RDEPEND}"
+
+src_unpack() {
+	git-r3_fetch
+	git-r3_checkout
+}
 
 src_install() {
 	einfo 'Installing files...'
