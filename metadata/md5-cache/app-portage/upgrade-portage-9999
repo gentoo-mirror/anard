@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=sys-apps/portage-3.0 color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )
 SLOT=0
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	27f9a2f19502b925ac117bd657aa2979	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=4210b3982f174578107a4cb5684840d5
+_md5_=d86a6a4a79c7507db9a5901aee0ae881
