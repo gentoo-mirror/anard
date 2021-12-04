@@ -16,9 +16,9 @@ S="${WORKDIR}/${PF}"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="+color +gtk"
+IUSE="+color l10n_fr"
 
-RDEPEND=">=sys-apps/portage-3.0 color? ( >=scripts/shell-text-1.0-r2 ) gtk? ( gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) )"
+RDEPEND=">=sys-apps/portage-3.0 gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )"
 DEPEND="${RDEPEND}"
 
 src_unpack() {
@@ -30,27 +30,30 @@ src_install() {
 	einfo 'Installing files...'
 	dosbin "${S}/upgrade"
 	dodoc "${S}/README.md"
-	if use gtk; then
-		doicon -s 64 "${S}/upgrade-portage.png"
-		domenu "${S}/upgrade.desktop"
-	fi
+	doicon -s 64 "${S}/upgrade-portage.png"
+	domenu "${S}/upgrade.desktop"
+	
+	langs=( fr )
+	for lang in ${langs[@]}; do
+		if use "l10n_${lang}"; then
+			msgfmt -o "${S}/locale/${lang}.mo" "${S}/locale/${lang}.po"
+			domo "${S}/locale/${lang}.mo"
+		fi
+	done
 }
 
 pkg_postinst() {
-	if use gtk; then
-#		xdg_desktop_database_update
-		xdg_icon_cache_update
-		grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
-		if [ $? -gt 0 ]; then
-			ewarn "Be sure to have properly configured an askpass program in /etc/sudo.conf"
-		fi
-		if ! type qlop &> /dev/null; then
-			elog "qlop is used to estimate merge times, you can install it via emerge -a app-portage/portage-utils"
-		fi
+#	xdg_desktop_database_update
+	xdg_icon_cache_update
+	grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
+	if [ $? -gt 0 ]; then
+		ewarn "Be sure to have properly configured an askpass program in /etc/sudo.conf"
+	fi
+	if ! type qlop &> /dev/null; then
+		elog "qlop is used to estimate merge times, you can install it via emerge -a app-portage/portage-utils"
 	fi
 }
+
 pkg_postrm() {
-	if use gtk; then
-		xdg_icon_cache_update
-	fi
+	xdg_icon_cache_update
 }
