@@ -26,24 +26,31 @@ src_unpack() {
 	git-r3_checkout
 }
 
+install_languages() {
+	# supported languages
+	langs=( fr )
+	langs_hum=( french )
+	# install
+	for i in ${!langs[@]}; do
+		lang="${langs[$i]}"
+		if use "l10n_${lang}"; then
+			moFile="${S}/locale/${lang}.mo"
+			poFile="${S}/locale/${lang}.po"
+			msgfmt -o "${moFile}" "${poFile}" && domo "${moFile}" || eerror "An error occurred while installing ${langs_hum[$i]} translated interface"
+		fi
+	done
+}
+
 src_install() {
 	einfo 'Installing files...'
 	dosbin "${S}/upgrade"
 	dodoc "${S}/README.md"
 	doicon -s 64 "${S}/upgrade-portage.png"
 	domenu "${S}/upgrade.desktop"
-	
-	langs=( fr )
-	for lang in ${langs[@]}; do
-		if use "l10n_${lang}"; then
-			msgfmt -o "${S}/locale/${lang}.mo" "${S}/locale/${lang}.po"
-			domo "${S}/locale/${lang}.mo"
-		fi
-	done
+	install_languages
 }
 
 pkg_postinst() {
-#	xdg_desktop_database_update
 	xdg_icon_cache_update
 	grep -e '^Path askpass .*' "/etc/sudo.conf" > /dev/null
 	if [ $? -gt 0 ]; then
