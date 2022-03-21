@@ -3,6 +3,10 @@
 # * generated automatically using pmaint *
 
 app-portage/upgrade-portage:color - Colorize texts for command line
+games-action/supertuxkart:nettle - Use dev-libs/nettle crypto backend
+games-action/supertuxkart:recorder - Enable recording with media-libs/libopenglrecorder
+games-action/supertuxkart:sqlite - Record IP bans, statistics in server mode with dev-db/sqlite
+games-action/supertuxkart:wiimote - Support for wiimote input devices
 sys-kernel/kernel-tools:color - Colorize texts
 sys-kernel/kernel-tools:dracut - Use Dracut to create an Initramfs image
 sys-kernel/kernel-tools:gconfig - Use gconfig to edit configuration file

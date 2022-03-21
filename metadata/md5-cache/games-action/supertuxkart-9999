@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/gettext virtual/pkgconfig dev-util/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl] dev-vcs/subversion[http(+)] net-misc/rsync
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=dev-cpp/libmcpp sqlite? ( dev-db/sqlite:3 ) dev-libs/angelscript:= media-libs/freetype:2 media-libs/harfbuzz:= media-libs/libpng:0= media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-libs/enet:1.3= net-misc/curl sys-libs/zlib virtual/glu virtual/jpeg:0 virtual/libintl virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm nettle? ( dev-libs/nettle:= ) !nettle? ( >=dev-libs/openssl-1.0.1d:0= ) recorder? ( media-libs/libopenglrecorder ) wiimote? ( net-wireless/bluez )
+DESCRIPTION=A kart racing game starring Tux, the linux penguin (TuxKart fork)
+EAPI=8
+HOMEPAGE=https://supertuxkart.net/
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=cmake desktop xdg git-r3 subversion
+IUSE=debug nettle recorder sqlite wiimote
+LICENSE=GPL-2 GPL-3 CC-BY-SA-3.0 CC-BY-SA-4.0 CC0-1.0 public-domain ZLIB
+PROPERTIES=live live
+RDEPEND=dev-cpp/libmcpp sqlite? ( dev-db/sqlite:3 ) dev-libs/angelscript:= media-libs/freetype:2 media-libs/harfbuzz:= media-libs/libpng:0= media-libs/libsdl2 media-libs/libvorbis media-libs/openal net-libs/enet:1.3= net-misc/curl sys-libs/zlib virtual/glu virtual/jpeg:0 virtual/libintl virtual/opengl x11-libs/libX11 x11-libs/libXxf86vm nettle? ( dev-libs/nettle:= ) !nettle? ( >=dev-libs/openssl-1.0.1d:0= ) recorder? ( media-libs/libopenglrecorder ) wiimote? ( net-wireless/bluez )
+SLOT=0
+SRC_URI=mirror://gentoo/supertuxkart.png
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	cmake	9f12546ab831b81c615d90e6b9e34e68	desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg	6024fbc93167fad782e2032933654857	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	estack	055c42df72f76a4f45ec92b35e83cd56	subversion	c68c8559f821cf5c144f3867244db4a3
+_md5_=f731a345648f495029a4b155a99012d5
