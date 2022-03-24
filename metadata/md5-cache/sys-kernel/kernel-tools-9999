@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut ) nconfig? ( sys-libs/ncurses ) xconfig? ( dev-qt/qtwidgets ) gconfig? ( x11-libs/gtk+:* dev-libs/glib gnome-base/libglade )
 REQUIRED_USE=dracut? ( !genkernel ) ^^ ( menuconfig gconfig xconfig nconfig )
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=992fa2c346df55f1f257f2b0b995ffb9
