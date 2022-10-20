@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=sys-apps/portage-3.0 gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )
 SLOT=0
 SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/tags/1.05.zip -> upgrade-portage-1.05.zip
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	xdg-utils	ac0e315a3688929e34ac75b139e7349a
 _md5_=cfa447ce85864315157bd6f5fdd7ac59
