@@ -10,4 +10,4 @@ RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genke
 REQUIRED_USE=dracut? ( !genkernel ) ^^ ( menuconfig gconfig xconfig nconfig )
 SLOT=0
 SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/tags/1.23.tar.gz -> kernel-tools-1.23.tar.gz
-_md5_=73e17391f0d6ad1e435b6bb7c289a31b
+_md5_=d7fa221916d60425ce5e599c51019619

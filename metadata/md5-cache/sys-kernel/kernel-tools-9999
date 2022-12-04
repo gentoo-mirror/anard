@@ -12,4 +12,4 @@ RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genke
 REQUIRED_USE=dracut? ( !genkernel ) ^^ ( menuconfig gconfig xconfig nconfig )
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=a702c6fd36d5ae3d755c47065e7fada4
+_md5_=62cc1e1f54a4507c1c29b3ce01658f0d

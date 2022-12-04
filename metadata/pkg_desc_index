@@ -1,9 +1,9 @@
-app-portage/upgrade-portage 1.01 1.05 9999: Simple way to upgrade Gentoo system
+app-portage/upgrade-portage 1.01-r1 1.05-r1 9999: Simple way to upgrade Gentoo system
 dev-libs/uni2ascii 4.18: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
 dev-python/m3u8 3.2.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
 net-misc/dpluzz-cli 1.5.7: Telecharge les videos depuis differents sites de rattrapage
 net-misc/trobairitz 0.1.2: Telecharge les videos depuis differents sites de rattrapage
-scripts/shell-text 1.1: Formatting text in echo commands
-sys-fs/disklav 1.0-r1: # Manage MIDI/E-Seq files inside of Disklavier images
-sys-kernel/kernel-tools 1.23 9999: Easily build and update kernel in Gentoo
+scripts/shell-text 1.1-r1: Formatting text in echo commands
+sys-fs/disklav 1.0-r2: # Manage MIDI/E-Seq files inside of Disklavier images
+sys-kernel/kernel-tools 1.23-r1 9999: Easily build and update kernel in Gentoo
