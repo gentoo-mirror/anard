@@ -8,7 +8,7 @@ inherit xdg-utils
 inherit git-r3
 
 DESCRIPTION="Simple way to upgrade Gentoo system"
-HOMEPAGE="https://github.com/Anard/${PN}.git"
+HOMEPAGE="https://github.com/Anard/upgrade-portage.git"
 EGIT_REPO_URI="https://github.com/Anard/${PN}.git"
 EGIT_BRANCH="master"
 S="${WORKDIR}/${PF}"
@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS=""
 IUSE="+color l10n_fr"
 
-RDEPEND=">=sys-apps/portage-3.0 gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )"
+RDEPEND=">=sys-apps/portage-3.0 app-portage/eix gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )"
 DEPEND="${RDEPEND}"
 
 src_unpack() {
