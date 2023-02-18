@@ -6,4 +6,4 @@ net-misc/dpluzz-cli 1.5.7: Telecharge les videos depuis differents sites de ratt
 net-misc/trobairitz 0.1.2: Telecharge les videos depuis differents sites de rattrapage
 scripts/shell-text 1.1-r1: Formatting text in echo commands
 sys-fs/disklav 1.0-r2: # Manage MIDI/E-Seq files inside of Disklavier images
-sys-kernel/kernel-tools 1.23-r1 9999: Easily build and update kernel in Gentoo
+sys-kernel/kernel-tools 1.24 9999: Easily build and update kernel in Gentoo

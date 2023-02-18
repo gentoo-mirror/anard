@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=color? ( >=scripts/shell-text-1.0-r2 ) grub? ( >=sys-boot/grub-2 ) genkernel? ( sys-kernel/genkernel ) dracut? ( sys-kernel/dracut ) nconfig? ( sys-libs/ncurses ) xconfig? ( dev-qt/qtwidgets ) gconfig? ( x11-libs/gtk+:* dev-libs/glib gnome-base/libglade )
 REQUIRED_USE=dracut? ( !genkernel ) ^^ ( menuconfig gconfig xconfig nconfig )
 SLOT=0
-SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/tags/1.23.tar.gz -> kernel-tools-1.23.tar.gz
+SRC_URI=https://github.com/Anard/kernel-tools/archive/refs/tags/1.24.tar.gz -> kernel-tools-1.24.tar.gz
 _md5_=d7fa221916d60425ce5e599c51019619
