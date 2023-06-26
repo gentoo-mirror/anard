@@ -1,4 +1,4 @@
-app-portage/upgrade-portage 1.01-r1 1.05-r1 9999: Simple way to upgrade Gentoo system
+app-portage/upgrade-portage 1.01-r1 1.06 9999: Simple way to upgrade Gentoo system
 dev-libs/uni2ascii 4.18: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
 dev-python/m3u8 3.2.0 3.4.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
