@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtopengl:5 dev-qt/qtconcurrent:5 x11-themes/hicolor-icon-theme
 SLOT=0
 SRC_URI=https://github.com/leozide/leocad/archive/refs/tags/v21.06.tar.gz -> leocad-21.06.tar.gz https://www.ldraw.org/library/updates//complete.zip -> library.bin
-_eclasses_=toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	baea6080dd821f5562d715887954c9d3
+_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=6476bd4042370c6243b70c08f4daef4d
