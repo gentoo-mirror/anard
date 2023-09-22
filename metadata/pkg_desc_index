@@ -4,7 +4,7 @@ dev-python/m3u8 3.2.0 3.4.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Tr
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
 media-gfx/leocad 21.06-r1 9999: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
 net-misc/dpluzz-cli 1.5.7: Telecharge les videos depuis differents sites de rattrapage
-net-misc/trobairitz 0.1.2 0.1.4: Telecharge les videos depuis differents sites de rattrapage
+net-misc/trobairitz 0.1.6: Telecharge les videos depuis differents sites de rattrapage
 scripts/shell-text 1.1-r1: Formatting text in echo commands
 sys-fs/disklav 1.0-r2: # Manage MIDI/E-Seq files inside of Disklavier images
 sys-kernel/kernel-tools 1.24-r1 9999: Easily build and update kernel in Gentoo
