@@ -11,4 +11,4 @@ RDEPEND=>=sys-apps/portage-3.0 gnome-extra/zenity || ( lxqt-base/lxqt-openssh-as
 SLOT=0
 SRC_URI=https://github.com/Anard/upgrade-portage/archive/refs/tags/1.07.tar.gz -> upgrade-portage-1.07.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3
-_md5_=f3f2b016502acb617ff0e650d496e951
+_md5_=4d7581d0068692049da36449918b5cec
