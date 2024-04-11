@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst postrm unpack
-DEPEND=>=sys-apps/portage-3.0 app-portage/eix gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )
+DEPEND=>=sys-apps/portage-3.0 app-portage/eix <gnome-extra/zenity-4 || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )
 DESCRIPTION=Simple way to upgrade Gentoo system
 EAPI=7
 HOMEPAGE=https://github.com/Anard/upgrade-portage.git
@@ -8,7 +8,7 @@ INHERIT=desktop xdg-utils git-r3
 IUSE=+color l10n_fr
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=>=sys-apps/portage-3.0 app-portage/eix gnome-extra/zenity || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )
+RDEPEND=>=sys-apps/portage-3.0 app-portage/eix <gnome-extra/zenity-4 || ( lxqt-base/lxqt-openssh-askpass net-misc/ssh-askpass-fullscreen net-misc/x11-ssh-askpass ) color? ( >=scripts/shell-text-1.0-r2 )
 SLOT=0
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=09e7f3000725df739b2474a6fe5e64e3
+_md5_=ad1009a75c8c9454406e5d159326cf7e
