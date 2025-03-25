@@ -1,6 +1,6 @@
 app-portage/upgrade-portage 1.01-r1 1.07-r2 9999: Simple way to upgrade Gentoo system
-dev-libs/uni2ascii 4.18: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
-dev-python/m3u8 3.4.0 4.1.0 5.0.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
+dev-libs/uni2ascii 4.18 4.20: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
+dev-python/m3u8 5.0.0 6.0.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
 media-gfx/leocad 23.03 9999: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
 net-misc/dpluzz-cli 1.5.7: Telecharge les videos depuis differents sites de rattrapage
