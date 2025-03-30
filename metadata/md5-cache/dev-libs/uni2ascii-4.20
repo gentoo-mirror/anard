@@ -1,9 +1,0 @@
-DEFINED_PHASES=test
-DESCRIPTION=Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
-EAPI=7
-HOMEPAGE=http://www.billposer.org/Software/uni2ascii.html
-KEYWORDS=amd64
-LICENSE=GPL-3
-SLOT=0
-SRC_URI=http://billposer.org/Software/Downloads/uni2ascii-4.20.tar.gz
-_md5_=eb6405046ced5dda5051e37b8dbcd02f

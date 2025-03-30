@@ -1,10 +1,8 @@
 app-portage/upgrade-portage 1.01-r1 1.07-r2 9999: Simple way to upgrade Gentoo system
-dev-libs/uni2ascii 4.18 4.20: Convert in both directions UTF-8 Unicode and more to 7-bit ASCII equivalents
-dev-python/m3u8 5.0.0 6.0.0: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
+dev-python/m3u8 6.0.0-r1: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
-media-gfx/leocad 23.03 9999: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
-net-misc/dpluzz-cli 1.5.7: Telecharge les videos depuis differents sites de rattrapage
-net-misc/trobairitz 0.1.6: Telecharge les videos depuis differents sites de rattrapage
-scripts/shell-text 1.1-r1: Formatting text in echo commands
-sys-fs/disklav 1.0-r2: # Manage MIDI/E-Seq files inside of Disklavier images
+media-gfx/leocad 23.03-r1 9999-r1: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
+net-misc/trobairitz 0.1.6-r1: Telecharge les videos depuis differents sites de rattrapage
+scripts/shell-text 1.1-r2: Formatting text in echo commands
+sys-fs/disklav 1.0-r3: # Manage MIDI/E-Seq files inside of Disklavier images
 sys-kernel/kernel-tools 1.24-r1 9999: Easily build and update kernel in Gentoo

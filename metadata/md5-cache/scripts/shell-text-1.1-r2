@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Formatting text in echo commands
+EAPI=8
+HOMEPAGE=https://github.com/Anard/HelpSh/
+KEYWORDS=amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://github.com/Anard/HelpSh/archive/refs/heads/master.tar.gz -> shell-text-1.1-r2.tar.gz
+_md5_=a284fd40233ff9ac86b0df66f3e9cecc

@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=dev-python/bitstring
 SLOT=0
-SRC_URI=https://github.com/MS3FGX/disklav/archive/master.zip -> disklav-1.0.zip
-_md5_=ee60b90beb40a327bdf5797150262aab
+SRC_URI=https://github.com/MS3FGX/disklav/archive/master.tar.gz -> disklav-1.0.tar.gz
+_md5_=4b643f0c22875df32d89b89878b5c82a
