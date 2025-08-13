@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
+EAPI=8
+HOMEPAGE=https://github.com/globocom/m3u8 https://pypi.org/project/m3u8
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/globocom/m3u8/archive/refs/tags/6.0.0.tar.gz
+_md5_=8c9114c652d6c78f071949a18e098610

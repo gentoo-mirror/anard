@@ -1,5 +1,7 @@
 app-portage/upgrade-portage 1.01-r1 1.07-r2 9999: Simple way to upgrade Gentoo system
+dev-python/m3u8 6.0.0-r2: Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions
 games-action/supertuxkart 9999: A kart racing game starring Tux, the linux penguin (TuxKart fork)
+media-gfx/freecad 1.0.2: Qt based Computer Aided Design application
 media-gfx/leocad 23.03-r1 9999-r1: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
 net-misc/trobairitz 0.1.6-r1: Telecharge les videos depuis differents sites de rattrapage
 scripts/shell-text 1.1-r2: Formatting text in echo commands
